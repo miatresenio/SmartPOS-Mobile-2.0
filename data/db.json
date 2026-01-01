@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "All",
+      "icon": "grid-outline"
+    },
+    {
+      "id": "2",
+      "name": "Breakfast",
+      "icon": "restaurant-outline"
+    },
+    {
+      "id": "3",
+      "name": "Soups",
+      "icon": "soup-custom"
+    },
+    {
+      "id": "4",
+      "name": "Pasta",
+      "icon": "pasta-custom"
+    },
+    {
+      "id": "5",
+      "name": "Burgers",
+      "icon": "fast-food-outline"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "categoryId": "4",
+      "name": "Tasty Vegetable Salad Healthy Diet",
+      "price": 17.99,
+      "image": "salad.png",
+      "type": "Veg"
+    },
+    {
+      "id": "2",
+      "categoryId": "5",
+      "name": "Original Cheese Meat Burger with Chips",
+      "price": 23.99,
+      "image": "burger.png",
+      "type": "Non Veg"
+    },
+    {
+      "id": "3",
+      "categoryId": "5",
+      "name": "Tacos Salsa With Chicken Grilled",
+      "price": 14.99,
+      "image": "tacos.png",
+      "type": "Non Veg"
+    },
+    {
+      "id": "4",
+      "categoryId": "1",
+      "name": "Fresh Orange Juice with Chia Seeds",
+      "price": 12.99,
+      "image": "orange_juice.png",
+      "type": "Veg"
+    },
+    {
+      "id": "5",
+      "categoryId": "7",
+      "name": "Original Cheese Burger with Fries",
+      "price": 10.99,
+      "image": "burger_fries.png",
+      "type": "Non Veg"
+    },
+    {
+      "id": "6",
+      "categoryId": "6",
+      "name": "Meat Sushi Maki  With Tuna, Shrimp And Other",
+      "price": 9.99,
+      "image": "sushi.png",
+      "type": "Non Veg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "categoryId": "4",
+      "name": "Tasty Vegetable Salad Healthy Diet",
+      "price": 17.99,
+      "image": "salad.png",
+      "type": "Veg",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "categoryId": "5",
+      "name": "Original Cheese Meat Burger with Chips",
+      "price": 23.99,
+      "image": "burger.png",
+      "type": "Non Veg",
+      "quantity": 2
+    },
+    {
+      "id": "6",
+      "categoryId": "6",
+      "name": "Meat Sushi Maki  With Tuna, Shrimp And Other",
+      "price": 9.99,
+      "image": "sushi.png",
+      "type": "Non Veg",
+      "quantity": 1
+    }
+  ],
+  "tables": [
+    {
+      "id": "1",
+      "name": "T1",
+      "waiter": "Jacob Jones"
+    },
+    {
+      "id": "2",
+      "name": "T2",
+      "waiter": "John Doe"
+    },
+    {
+      "id": "3",
+      "name": "T3",
+      "waiter": "Jacob Jones"
+    },
+    {
+      "id": "4",
+      "name": "T4",
+      "waiter": "Jane Smith"
+    }
+  ]
+}
