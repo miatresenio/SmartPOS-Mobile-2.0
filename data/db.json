@@ -126,5 +126,31 @@
       "name": "T4",
       "waiter": "Jane Smith"
     }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Low Stock Alert!",
+      "description": "Beef Patties & Lettuce are below 10 units. Restock soon!",
+      "time": "2 mins ago",
+      "type": "warning",
+      "read": false
+    },
+    {
+      "id": "2",
+      "title": "Payment Successful",
+      "description": "Order #8829 has been fully paid via GCash (PHP 1,250.00).",
+      "time": "45 mins ago",
+      "type": "success",
+      "read": true
+    },
+    {
+      "id": "3",
+      "title": "New System Update",
+      "description": "SmartPOS v1.0.2 is now available. Check out the new AI insights!",
+      "time": "2 hours ago",
+      "type": "info",
+      "read": true
+    }
   ]
 }
