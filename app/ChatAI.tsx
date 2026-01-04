@@ -51,7 +51,7 @@ const ChatAI = () => {
   const [messages, setMessages] = useState([
     {
       id: "1",
-      text: "Welcome! SmartPOS AI here. I've analyzed your inventory and noticed some items are running low. How can I assist you with your orders or stock monitoring today?",
+      text: "Welcome! SmartPOS Assistant here. I've analyzed your inventory and noticed some items are running low. How can I assist you with your orders or stock monitoring today?",
       sender: "bot",
     },
   ]);
@@ -177,7 +177,7 @@ const ChatAI = () => {
         <TouchableOpacity onPress={() => router.back()}>
           <Ionicons name="close-circle" size={32} color="#1E1E1E" />
         </TouchableOpacity>
-        <Text style={styles.headerTitle}>SmartPOS AI Assistant</Text>
+        <Text style={styles.headerTitle}>SmartPOS Assistant</Text>
         <View style={{ width: 32 }} />
       </View>
 

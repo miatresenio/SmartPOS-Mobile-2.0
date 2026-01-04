@@ -22,9 +22,8 @@ export default function SuccessScreen() {
           <Text style={styles.statusText}>Order Successful</Text>
           <Text style={styles.title}>Sent to Kitchen</Text>
           <Text style={styles.desc}>
-            The order for{" "}
-            <Text style={styles.highlight}>Table 1 (Jacob Jones)</Text> has been
-            successfully placed and is now being prepared.
+            The order for <Text style={styles.highlight}>Table 1 </Text>
+            has been successfully placed and is now being prepared.
           </Text>
         </View>
 
