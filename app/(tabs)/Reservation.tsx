@@ -513,8 +513,9 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 22,
-    fontWeight: "800",
-    color: "#1A1A1A",
+    fontWeight: "700",
+    color: "#1E1E1E",
+    letterSpacing: -0.5,
   },
   addBtn: {
     flexDirection: "row",

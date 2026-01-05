@@ -281,7 +281,7 @@ export default function SettingsScreen() {
   );
 
   const handleLogout = () => {
-    Alert.alert("Logout", "Sigurado ka bang gusto mong lumabas?", [
+    Alert.alert("Logout", "Logout of your account?", [
       { text: "Cancel", style: "cancel" },
       {
         text: "Logout",
@@ -339,7 +339,7 @@ export default function SettingsScreen() {
         <View style={styles.group}>
           <SettingItem icon="storefront-outline" title="Store Information" />
           <SettingItem icon="receipt-outline" title="Tax & Receipts" />
-          <SettingItem icon="moon-outline" title="Dark Mode" type="switch" />
+          {/* <SettingItem icon="moon-outline" title="Dark Mode" type="switch" /> */}
         </View>
 
         <Text style={styles.sectionLabel}>Support</Text>
@@ -380,10 +380,12 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   headerTitle: {
-    fontSize: 28,
-    fontWeight: "800",
+    fontSize: 22,
+    fontWeight: "700",
     color: "#1E1E1E",
     flex: 1, // Para sakop ang space
+
+    letterSpacing: -0.5,
   },
   scrollContent: { padding: 20 },
   profileCard: {

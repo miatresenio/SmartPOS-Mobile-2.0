@@ -571,6 +571,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import Animated, { FadeInDown, Layout, Easing } from "react-native-reanimated";
 import DeliveryMap from "../../components/DeliveryMap";
+import { router } from "expo-router";
 
 const DELIVERY_DATA = [
   {
@@ -725,7 +726,7 @@ export default function DeliveryScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Deliveries</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => router.push("../ChatListScreen")}>
           <Ionicons name="chatbox-ellipses-outline" size={24} color="#16AB4C" />
         </TouchableOpacity>
       </View>
@@ -784,7 +785,12 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     backgroundColor: "#FFF",
   },
-  headerTitle: { fontSize: 20, fontWeight: "800", color: "#1A1A1A" },
+  headerTitle: {
+    fontSize: 22,
+    fontWeight: "700",
+    color: "#1E1E1E",
+    letterSpacing: -0.5,
+  },
   tabContainer: {
     flexDirection: "row",
     backgroundColor: "#FFF",

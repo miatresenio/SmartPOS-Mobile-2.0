@@ -101,10 +101,12 @@ const styles = StyleSheet.create({
   backBtn: { padding: 5 },
   headerTitle: {
     fontSize: 22,
-    fontWeight: "800",
+    fontWeight: "700",
     color: "#1E1E1E",
     flex: 1,
     marginLeft: 10,
+
+    letterSpacing: -0.5,
   },
   markReadText: { fontSize: 12, color: "#16AB4C", fontWeight: "600" },
   listContent: { padding: 20 },

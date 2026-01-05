@@ -49,7 +49,7 @@ export default function SuccessScreen() {
           onPress={() => router.replace("/(tabs)")}
           activeOpacity={0.8}
         >
-          <Text style={styles.buttonText}>Return to Dashboard</Text>
+          <Text style={styles.buttonText}>Return</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

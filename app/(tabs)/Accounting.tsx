@@ -443,7 +443,12 @@ const styles = StyleSheet.create({
     shadowRadius: 5,
     elevation: 3,
   },
-  headerTitle: { fontSize: 22, fontWeight: "800", color: "#1E1E1E" },
+  headerTitle: {
+    fontSize: 22,
+    fontWeight: "700",
+    color: "#1E1E1E",
+    letterSpacing: -0.5,
+  },
   subtitle: { fontSize: 12, color: "#999" },
   filterBtn: {
     flexDirection: "row",
