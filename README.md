@@ -5,8 +5,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ## Get started
 
 # Navigate to the mobile directory
-
-cd Mobile/pos-mobile
+   
+    ```bash
+   cd Mobile/pos-mobile
+    ```
 
 1. Install dependencies
 
