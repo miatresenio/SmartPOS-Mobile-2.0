@@ -6,9 +6,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 # Navigate to the mobile directory
    
-    ```bash
-   cd Mobile/pos-mobile
-    ```
+cd Mobile/pos-mobile
+ 
 
 1. Install dependencies
 
@@ -24,7 +23,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 # Start the JSON server on port 5005
 
+ ```bash
 npx json-server data/db.json --port 5005
+   ```
 
 In the output, you'll find options to open the app in a
 
