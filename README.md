@@ -4,7 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
-# Navigate to the mobile directory
+## Navigate to the mobile directory
    
 cd Mobile/pos-mobile
  
@@ -21,7 +21,7 @@ cd Mobile/pos-mobile
    npx expo start
    ```
 
-# Start the JSON server on port 5005
+## Start the JSON server on port 5005
 
  ```bash
 npx json-server data/db.json --port 5005
