@@ -6,7 +6,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Navigate to the mobile directory
    ```bash
-   cd Mobile/pos-mobile
+   cd pos-mobile
    ```
  
 
