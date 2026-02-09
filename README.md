@@ -1,4 +1,4 @@
-# SMARTPOS
+# SMARTPOS - Mobile
 
 ## Navigate to the mobile directory
    ```bash
